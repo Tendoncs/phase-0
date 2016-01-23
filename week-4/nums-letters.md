@@ -18,3 +18,7 @@ Float will not.
 p 24*365.25
 p 60*24*365.25*10
 ```
+
+https://github.com/Tendoncs/phase-0/blob/master/week-4/defining-variables.rb
+
+
