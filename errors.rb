@@ -152,7 +152,7 @@
 
 # --- error -------------------------------------------------------
 
-require_relative "cartmans_essay.md"
+# require_relative "cartmans_essay.md"
 
 # 1. What is the line number where the error occurs?
 #155
@@ -171,6 +171,17 @@ require_relative "cartmans_essay.md"
 # Write your reflection below as a comment.
 
 
+# Question: Which error was the most difficult to read?
+# Answer: the end error is a little hard to read because it tells it is at the end of the file and not where it should be.
 
+
+# Question: How did you figure out what the issue with the error was?
+# Answer: Just used to testing errors.
+
+# Question: Were you able to determine why each error message happened based on the code?
+# Answer: Yes.
+
+# Question: When you encounter errors in your future code, what process will you follow to help you debug?
+# Answer: Start at the top and work out. Also IDE have good breakpoints that help.
 
 
