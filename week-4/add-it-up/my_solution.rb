@@ -76,6 +76,20 @@ end
 # 5. sentence_maker initial solution
 
 
+def sentence_maker (string_array)
+  temp_string = string_array.join(" ")
+  temp_string += "."
+  temp_string.capitalize
+end
+
+
 
 # 6. sentence_maker refactored solution
+
+def sentence_maker (string_array)
+  temp_string = string_array.join(" ")
+  temp_string += "."
+  temp_string.capitalize
+end
+
 
