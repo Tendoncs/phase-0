@@ -64,3 +64,15 @@ while student_counter < student_count
   group_counter += 1
 end
 
+#reflect
+
+#Qestion: What was the most interesting and most difficult part of this challenge?
+#answer: reading in from a file, the logic is handle increasing the size of groups
+#Qestion: Do you feel you are improving in your ability to write pseudocode and break the problem down?
+#answer: Not really. I have done it a lot before. But practice is always better.
+#Qestion: Was your approach for automating this task a good solution? What could have made it even better?
+#answer: I would like to have written it out to a file, also added a random sort into it. It could have done a array sort I think, but I would want to use some sort of seed to do it. Also could have used some sort of interface. Like maybe aurguments.
+#Qestion: What data structure did you decide to store the accountability groups in and why?
+#answer I did not store the data it put put them. The project did not require it. but I did store the random input list.
+#Qestion: What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+#answer I did not really refactore much. I spent way to long on this one.
