@@ -39,3 +39,21 @@ end
 
 
 # 3. Reflection
+#answer:
+
+#Question: What was your process for breaking the problem down? What different approaches did you consider?
+#answer: just took it in basic sections. Nothing new.
+
+#Question: Was your pseudocode effective in helping you build a successful initial solution?
+#answer: It helps.
+
+#Question:  What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+#answer: each_slice and map and join. I started research and found a great one-liner.
+
+#Question:  How did you initially iterate through the data structure?
+#answer: A do each loop
+
+#Question: Do you feel your refactored solution is more readable than your initial solution? Why?
+#answer: No the refactored solution looked cool and worked great but it ran solower and was harder to read.
+
+
