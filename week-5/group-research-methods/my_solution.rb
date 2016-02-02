@@ -47,6 +47,48 @@ def my_hash_modification_method!(source, thing_to_modify)
   source.each { |key, value| source[key] = value + thing_to_modify }
 end
 
+# Release 1:
+
+
+# Identify and describe the Ruby method you implemented:
+
+
+# I used map! and each to create these methods.
+
+# I had to use map! for the array; map iterates over the array and
+# modifies it.
+
+# For the modification of hash I used .each which looks at each key, value
+# pairing in the hash.
+
+# Teach your accountability group how to use the methods:
+
+
+# For the .map method, this is very similar to the .each method. The map
+# method performs a function on an array element and always returns an array
+# of the SAME SIZE. My task was to increase the number values in the array
+# by a given argument (thing_to_modify), the array is composed of ints and
+# strings so I only wanted to add thing_to_modify to strings; therefore I
+# performed an if test - if the element was an int then I would add
+# thing_to_modify to it.
+
+# For the each method, this was more straight forward, but you have to make
+# sure you're using the right syntax. Since you want to modify the value at a
+# given key you can look at each key and increase the value by thing_to_modify
+# The method .each in this case therefore adds thing_to_modify to respective
+# value associated with the respective key.
+
+
+# Release 3: Reflect!
+# What did you learn about researching and explaining your research to others?
+#
+#
+# I learned that it's important to know exactly what you want to do and to look
+# up a number of methods that you think will solve the problem and not to rule
+# out solutions too quickly. This is because I had to go back to my original
+# researched methods after first eleminating them as viable options.
+
+
 # Person 3 - Robbie Santos
 
 def my_array_sorting_method(source)
@@ -124,23 +166,67 @@ end
 #
 
 
-# Person 4
+# Person 4 - Ben Giamarino
 def my_array_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.delete_if { |item| item.to_s.include? thing_to_delete}
 end
+
 def my_hash_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.delete_if { |k, v| k.to_s.include? thing_to_delete}
 end
+
 # Identify and describe the Ruby method(s) you implemented.
 #
 #
 #
-# Person 5
+# Person 5 - Victor Wong
+
 def my_array_splitting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  nested_arr_int = []
+  i = 0
+  nested_arr_string = []
+  s = 0
+
+  source.each do |content|
+    if content.is_a?(Integer)
+      nested_arr_int [i] = content
+      i += 1
+    elsif content.is_a?(String)
+      nested_arr_string [s] = content
+      s += 1
+    end
+  end
+
+  return master_arr = [nested_arr_int,nested_arr_string]
+
 end
+
 def my_hash_splitting_method(source, age)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  nested_arr_older = []
+  o = 0
+  nested_arr_younger = []
+  y = 0
+
+  source.each do |key,value|
+    if value <= age
+      nested_arr_younger [y] = [key,value]
+      y += 1
+    else
+      nested_arr_older [o] = [key,value]
+      o += 1
+    end
+  end
+
+  return master_arr = [nested_arr_younger,nested_arr_older]
+
 end
 # Identify and describe the Ruby method(s) you implemented.
 
+=begin
+I used a new method here:
+
+.is_a?(data_type)
+
+to help me check whether the content is an integer or a string
+
+=end
