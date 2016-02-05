@@ -93,6 +93,7 @@ end
 def mode(array)
   hash_uniq = Hash.new
   final_array = Array.new
+
   array_uniq = array.clone.uniq
   largest_hash_value = 0
 
@@ -134,4 +135,4 @@ end
 #question: What issues/successes did you run into when translating your pseudocode to code?
 #answer: nothing
 #question: What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
-#answer: I used map. I am starting to like the map.
+#answer: I used map. I am starting to like the map. For me map seams to work the best.
