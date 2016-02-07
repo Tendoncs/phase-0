@@ -47,3 +47,11 @@ end
 #answer: it added a attr_writer
 #question:Is this code simpler than the last?
 #answer: about the same to read but much easier to write.
+
+
+#question:What is a reader method? it reads you a @variable
+#question:What is a writer method? it writes to a class @variable
+#question:What do the attr methods do for you? they create a variable and the get and set all in one
+#question:Should you always use an accessor to cover your bases? Why or why not? not always you might want things to be taken into account when you set or get something.
+#question:What is confusing to you about these methods? how a symbol has data linked to it.
+
