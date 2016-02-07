@@ -35,7 +35,15 @@ end
 
 #question: What changed between the last release and this release?
 #answer: change things around with commits and added a symbol changed names of methods.
-#question: What was replaced?
+#question: What was replaced? did some research it removed a get/set and placed it.
 #answer:nothing really just names of things.
-#question: Is this code simpler than the last?
-#answer:it was the same for me.
+#question: Is this code simpler than the last? did some research it removed a get/set and placed it.
+#answer:it was the same for me. Ok I did some research and what it does it it replaces the get and sets with a symbol.
+
+
+#question:What changed between the last release and this release?
+#answer: added attr_writer
+#question:What was replaced?
+#answer: it added a attr_writer
+#question:Is this code simpler than the last?
+#answer: about the same to read but much easier to write.
