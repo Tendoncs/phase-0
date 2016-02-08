@@ -192,3 +192,14 @@ new_game.display_card
 
 #Reflection
 
+
+#question: Does your call method return a letter and a number?
+#answer: Kind off. It returns two numbers and the first number is 0-4 for bingo it uses a key to convert.
+#question: Does your check method replace the number with a string if the number is present?
+#answer: Yes
+#question: Does your check method not replace anything if the number is not present?
+#answer: yes
+#question: Does the board display to the console correctly? You can check this using your eyes.
+#answer: Yes.
+
+
