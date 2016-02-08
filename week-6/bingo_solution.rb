@@ -203,3 +203,19 @@ new_game.display_card
 #answer: Yes.
 
 
+#question: How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+#answer: It was not hard. what was hard was the looping the nested array.
+#question: What are the benefits of using a class for this challenge?
+#answer: You can pass and store properties.
+#question: How can you access coordinates in a nested array?
+#answer: tricky. It uses a lot of logic. It it uses nested loops.
+#question: What methods did you use to access and modify the array?
+#answer: each
+#question: Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+#answer: each_with_index. It calls the each and gives you the index also.
+#question: How did you determine what should be an instance variable versus a local variable?
+#answer: It depends on if you need to pass data around. Local variables are for inside a method and instance are for the whole class.
+#question: What do you feel is most improved in your refactored solution?
+#answer: the logic of how it accesses the data.
+
+
