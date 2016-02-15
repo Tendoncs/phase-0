@@ -166,3 +166,16 @@ end
 
 #=======================================================================
 # Reflection Section
+
+
+#Question: What are the differences between the two different hash syntaxes shown in the state_data file?
+#answer: it has to do with creating, adding or appending. I think.
+#Question: What does require_relative do? How is it different from require?
+#answer: It has to do with being in the current dir or assign it a dir.
+#Question: What are some ways to iterate through a hash?
+#answer:each, foreach, foreach with index. map
+#Question: When refactoring virus_effects, what stood out to you about the variables, if anything?
+#answer: They never got used.
+#Question: What concept did you most solidify in this challenge?
+#answer: refactoring is like a tree. You start with the seed of an idea and it grows into this tree
+# then you need to cut some limbs off the tree to make it better.
